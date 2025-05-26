@@ -1,0 +1,9 @@
+[package]
+name = "yolov3-burn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+burn = { workspace = true, features = ["std", "train", "vision"] }
+# Add other necessary backend dependencies for Burn if needed, e.g., wgpu
+# For now, let's assume a default backend or that the user will configure it.
